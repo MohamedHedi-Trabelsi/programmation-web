@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(to right ,#22ff1e,#00bfff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 4px 8px rgb(84, 17, 17);
+}
+header h1{
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header p {
+    margin-top: 10px;
+    font-size: 1.2 rem;
+}
+nav{
+    background-color: #ff8c00;
+    padding: 15px;
+    box-shadow: 0px 4 px 6px rgba(0, 0,0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav  ul li {
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease ;
+}
+nav ul li a:hover{
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 8px;
+}
+section{
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
