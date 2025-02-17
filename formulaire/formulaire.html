@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire d'inscription Utilisateur</h1>
+    <form id="registrationForm" name="registrationForm">
+        <div class="row">
+            <label for="firstName">Prénom :</label><br>
+            <input type="text" id="firstName"><br>
+        </div>
+        <div class="row">
+            <label for="lastName">Nom :</label><br>
+            <input type="text" id="lastName"><br>
+        </div>
+        <div class="row">
+            <label for="email">Email :</label><br>
+            <input type="email" id="email"><br>
+        </div>
+        <div class="row">
+            <label for="password">Mot de passe :</label><br>
+            <input type="password" id="password"><br>
+        </div>
+        <div class="row">
+            <label for="confirmPassword">Confirmer le mot de passe :</label><br>
+            <input type="password" id="confirmPassword"><br>
+        </div>
+        <fieldset>
+            <legend>Genre :</legend>
+            <input type="radio" name="gender" id="genderMale" value="masculin"><label for="genderMale">Masculin</label>
+            <input type="radio" name="gender" id="genderFemale" value="feminin"><label for="genderFemale">Féminin</label>
+        </fieldset>
+        <div class="row">
+            <label for="country">Pays :</label>
+            <select id="country">
+                <option value="">--Sélectionnez--</option>
+                <option value="TN">Tunisie</option>
+                <option value="DZ">Algérie</option>
+                <option value="MA">Maroc</option>
+                <option value="TR">Turquie</option>
+                <option value="FR">France</option>
+            </select><br>
+        </div>
+        <input type="submit" id="btn" value="Inscrire">
+    </form>
+    <script src="controle.js" async></script>
+</body>
+</html>
